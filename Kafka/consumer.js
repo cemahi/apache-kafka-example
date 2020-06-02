@@ -1,6 +1,7 @@
 const { Kafka } = require("kafkajs");
 
 const topic_name = process.argv[2] || "logs2"
+
 createConsumer();
 
 async function createConsumer(){
